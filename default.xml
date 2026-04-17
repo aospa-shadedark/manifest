@@ -40,13 +40,16 @@
            revision="vauxite" />
 
   <remote  name="github"
-           fetch="https://github.com" />
+           fetch="https://github.com"
+           revision="vauxite"/>
 
   <remote  name="github-ssh"
-           fetch="ssh://git@github.com" />
+           fetch="ssh://git@github.com"
+           revision="vauxite"/>
 
   <remote  name="gitlab"
-           fetch="https://gitlab.com" />
+           fetch="https://gitlab.com"
+           revision="vauxite"/>
 
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
