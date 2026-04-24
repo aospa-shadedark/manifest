@@ -47,6 +47,8 @@
   <!-- External -->
   <remove-project name="platform/external/arm-optimized-routines" />
   <project path="external/arm-optimized-routines" name="AOSPA/android_external_arm-optimized-routines" remote="aospa" />
+  <remove-project name="platform/external/bouncycastle" />
+  <project path="external/bouncycastle" name="aospa-shadedark/android_external_bouncycastle" remote="github-ssh" />
   <remove-project name="platform/external/e2fsprogs" />
   <project path="external/e2fsprogs" name="AOSPA/android_external_e2fsprogs" remote="aospa" />
   <remove-project name="platform/external/fastrpc" />
@@ -123,7 +125,7 @@
   <remove-project name="platform/system/memory/lmkd" />
   <project path="system/memory/lmkd" name="AOSPA/android_system_memory_lmkd" remote="aospa" />
   <remove-project name="platform/system/sepolicy" />
-  <project path="system/sepolicy" name="AOSPA/android_system_sepolicy" remote="aospa" />
+  <project path="system/sepolicy" name="aospa-shadedark/android_system_sepolicy" remote="github-ssh" />
   <remove-project name="platform/system/vold" />
   <project path="system/vold" name="aospa-shadedark/android_system_vold" remote="github-ssh" />
 
