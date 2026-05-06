@@ -40,10 +40,12 @@
            revision="beryl" />
 
   <remote  name="github"
-           fetch="https://github.com" />
+           fetch="https://github.com"
+           revision="beryl" />           
 
   <remote  name="github-ssh"
-           fetch="ssh://git@github.com" />
+           fetch="ssh://git@github.com"
+           revision="beryl" />
 
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
@@ -51,5 +53,6 @@
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
   <include name="obsolete.xml"/>
+  <include name="aospa-shadedark.xml"/>
 
 </manifest>
