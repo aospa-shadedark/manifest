@@ -55,4 +55,9 @@
   <include name="obsolete.xml"/>
   <include name="aospa-shadedark.xml"/>
 
+  <!-- Local Remote -->
+  <remote  name="shadedark"
+           fetch="https://github.com/aospa-shadedark"
+           revision="beryl" />
+
 </manifest>
