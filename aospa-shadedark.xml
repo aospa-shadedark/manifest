@@ -38,8 +38,10 @@
 
   <!-- External
   <remove-project name="platform/external/arm-optimized-routines" />
-  <project path="external/arm-optimized-routines" name="AOSPA/android_external_arm-optimized-routines" remote="aospa" />
-  <remove-project name="platform/external/e2fsprogs" />
+  <project path="external/arm-optimized-routines" name="AOSPA/android_external_arm-optimized-routines" remote="aospa" /> -->
+  <remove-project name="platform/external/bouncycastle" />
+  <project path="external/bouncycastle" name="aospa-shadedark/android_external_bouncycastle" remote="github-ssh" />
+<!-- <remove-project name="platform/external/e2fsprogs" />
   <project path="external/e2fsprogs" name="AOSPA/android_external_e2fsprogs" remote="aospa" />
   <remove-project name="platform/external/fastrpc" />
   <project path="external/fastrpc" name="AOSPA/android_external_fastrpc" remote="aospa" />
@@ -52,11 +54,11 @@
 
   <!-- Frameworks
   <remove-project name="platform/frameworks/av" />
-  <project path="frameworks/av" name="AOSPA/android_frameworks_av" remote="aospa" />
-  <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" />
-  <remove-project name="platform/frameworks/native" />
-  <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" /> -->
+  <project path="frameworks/av" name="AOSPA/android_frameworks_av" remote="aospa" /> -->
+  <remove-project name="AOSPA/android_frameworks_base" />
+  <project path="frameworks/base" name="aospa-shadedark/android_frameworks_base" remote="github-ssh" />
+<!-- <remove-project name="AOSPA/android_frameworks_native" />
+  <project path="frameworks/native" name="aospa-shadedark/android_frameworks_native" remote="github-ssh" /> -->
 
   <!-- Hardware
   <remove-project name="platform/hardware/libhardware" />
@@ -79,33 +81,39 @@
   <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" revision="lineage-23.0" remote="github" />
   <project path="packages/apps/ParanoidDoze" name="AOSPA/android_packages_apps_ParanoidDoze" remote="aospa" />
   <project path="packages/apps/ParanoidPapers" name="AOSPA/android_packages_apps_ParanoidPapers" remote="aospa" />
-  <project path="packages/apps/ParanoidSettings" name="AOSPA/android_packages_apps_ParanoidSettings" remote="aospa" />
-  <project path="packages/apps/ParanoidSense" name="AOSPA/android_packages_apps_ParanoidSense" remote="aospa" />
-  <project path="packages/apps/ParanoidSystemUI" name="AOSPA/android_packages_apps_Paranoid_SystemUI" remote="aospa" />
-  <project path="packages/resources/devicesettings" name="AOSPA/android_packages_resources_devicesettings" remote="aospa" /> -->
+  <remove-project name="AOSPA/android_packages_apps_ParanoidSettings" />
+  <project path="packages/apps/ParanoidSettings" name="aospa-shadedark/android_packages_apps_ParanoidSettings" remote="github-ssh" />
+  <project path="packages/apps/ParanoidSense" name="AOSPA/android_packages_apps_ParanoidSense" remote="aospa" /> -->
+  <remove-project name="AOSPA/android_packages_apps_Paranoid_SystemUI" />
+  <project path="packages/apps/ParanoidSystemUI" name="aospa-shadedark/android_packages_apps_Paranoid_SystemUI" remote="github-ssh" />
+<!-- <project path="packages/resources/devicesettings" name="AOSPA/android_packages_resources_devicesettings" remote="aospa" /> -->
 
   <!-- Packages
-  <remove-project name="platform/packages/apps/Launcher3" />
-  <project path="packages/apps/Launcher3" name="AOSPA/android_packages_apps_Launcher3" remote="aospa" />
-  <remove-project name="platform/packages/apps/Settings" />
-  <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="aospa" />
-  <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="AOSPA/android_packages_apps_Launcher3" />
+  <project path="packages/apps/Launcher3" name="aospa-shadedark/android_packages_apps_Launcher3" remote="github-ssh" /> -->
+  <remove-project name="AOSPA/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="aospa-shadedark/android_packages_apps_Settings" remote="github-ssh" />
+<!-- <remove-project name="platform/packages/apps/ThemePicker" />
   <project path="packages/apps/ThemePicker" name="AOSPA/android_packages_apps_ThemePicker" remote="aospa" />
   <remove-project name="platform/packages/modules/Bluetooth" />
   <project path="packages/modules/Bluetooth" name="AOSPA/android_packages_modules_Bluetooth" remote="aospa" />
   <remove-project name="platform/packages/modules/Nfc" />
   <project path="packages/modules/Nfc" name="AOSPA/android_packages_modules_Nfc" remote="aospa" />
-  <remove-project name="platform/packages/services/Telecomm" />
-  <project path="packages/services/Telecomm" name="AOSPA/android_packages_services_Telecomm" remote="aospa" /> -->
+  <remove-project name="platform/packages/modules/StatsD" />
+  <project path="packages/modules/StatsD" name="aospa-shadedark/android_packages_modules_StatsD" remote="github-ssh" /> -->
+  <remove-project name="AOSPA/android_packages_services_Telecomm" />
+  <project path="packages/services/Telecomm" name="aospa-shadedark/android_packages_services_Telecomm" remote="github-ssh" />
 
   <!-- Prebuilts (AOSPA)
   <project path="prebuilts/extract-tools" name="AOSPA/android_prebuilts_extract-tools" remote="aospa" /> -->
 
-  <!-- System
-  <remove-project name="platform/system/core" />
-  <project path="system/core" name="AOSPA/android_system_core" remote="aospa" />
-  <remove-project name="platform/system/memory/lmkd" />
+  <!-- System -->
+  <remove-project name="AOSPA/android_system_core" />
+  <project path="system/core" name="aospa-shadedark/android_system_core" remote="github-ssh" />
+ <!-- <remove-project name="platform/system/memory/lmkd" />
   <project path="system/memory/lmkd" name="AOSPA/android_system_memory_lmkd" remote="aospa" /> -->
+  <remove-project name="platform/system/vold" />
+  <project path="system/vold" name="aospa-shadedark/android_system_vold" remote="github-ssh" />
 
   <!-- Tools (AOSPA) -->
   <remove-project name="AOSPA/android_tools_extract-utils" />
@@ -150,5 +158,11 @@
   <project path="vendor/qcom/opensource/usb" name="AOSPA/android_vendor_qcom-opensource_usb" remote="aospa" />
   <remove-project name="platform/hardware/qcom/thermal" />
   <project path="vendor/qcom/opensource/thermal-hal" name="AOSPA/android_hardware_qcom_thermal" remote="aospa" /> -->
+  
+  <!--Smartspace-->
+  <project path="packages/services/SmartSpace" name="aospa-shadedark/android_packages_services_SmartSpace" remote="github-ssh" />
+
+  <!--BCR-->
+  <project path="vendor/bcr" name="Chaitanyakm/vendor_bcr" remote="github" revision="main" />
 
 </manifest>
