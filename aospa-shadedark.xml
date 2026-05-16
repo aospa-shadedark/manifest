@@ -40,7 +40,7 @@
   <remove-project name="platform/external/arm-optimized-routines" />
   <project path="external/arm-optimized-routines" name="AOSPA/android_external_arm-optimized-routines" remote="aospa" /> -->
   <remove-project name="platform/external/bouncycastle" />
-  <project path="external/bouncycastle" name="aospa-shadedark/android_external_bouncycastle" remote="github-ssh" />
+  <project path="external/bouncycastle" name="android_external_bouncycastle" remote="shadedark" />
 <!-- <remove-project name="platform/external/e2fsprogs" />
   <project path="external/e2fsprogs" name="AOSPA/android_external_e2fsprogs" remote="aospa" />
   <remove-project name="platform/external/fastrpc" />
@@ -56,7 +56,7 @@
   <remove-project name="platform/frameworks/av" />
   <project path="frameworks/av" name="AOSPA/android_frameworks_av" remote="aospa" /> -->
   <remove-project name="AOSPA/android_frameworks_base" />
-  <project path="frameworks/base" name="aospa-shadedark/android_frameworks_base" remote="github-ssh" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="shadedark" />
 <!-- <remove-project name="AOSPA/android_frameworks_native" />
   <project path="frameworks/native" name="aospa-shadedark/android_frameworks_native" remote="github-ssh" /> -->
 
@@ -75,7 +75,7 @@
 
   <!-- Manifest -->
   <remove-project name="AOSPA/manifest" />
-  <project path="manifest" name="aospa-shadedark/manifest" remote="github-ssh" />
+  <project path="manifest" name="manifest" remote="shadedark" />
 
   <!-- Packages (Custom)
   <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" revision="lineage-23.0" remote="github" />
@@ -85,14 +85,14 @@
   <project path="packages/apps/ParanoidSettings" name="aospa-shadedark/android_packages_apps_ParanoidSettings" remote="github-ssh" />
   <project path="packages/apps/ParanoidSense" name="AOSPA/android_packages_apps_ParanoidSense" remote="aospa" /> -->
   <remove-project name="AOSPA/android_packages_apps_Paranoid_SystemUI" />
-  <project path="packages/apps/ParanoidSystemUI" name="aospa-shadedark/android_packages_apps_Paranoid_SystemUI" remote="github-ssh" />
+  <project path="packages/apps/ParanoidSystemUI" name="android_packages_apps_Paranoid_SystemUI" remote="shadedark" />
 <!-- <project path="packages/resources/devicesettings" name="AOSPA/android_packages_resources_devicesettings" remote="aospa" /> -->
 
   <!-- Packages
   <remove-project name="AOSPA/android_packages_apps_Launcher3" />
   <project path="packages/apps/Launcher3" name="aospa-shadedark/android_packages_apps_Launcher3" remote="github-ssh" /> -->
   <remove-project name="AOSPA/android_packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="aospa-shadedark/android_packages_apps_Settings" remote="github-ssh" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="shadedark" />
 <!-- <remove-project name="platform/packages/apps/ThemePicker" />
   <project path="packages/apps/ThemePicker" name="AOSPA/android_packages_apps_ThemePicker" remote="aospa" />
   <remove-project name="platform/packages/modules/Bluetooth" />
@@ -102,26 +102,26 @@
   <remove-project name="platform/packages/modules/StatsD" />
   <project path="packages/modules/StatsD" name="aospa-shadedark/android_packages_modules_StatsD" remote="github-ssh" /> -->
   <remove-project name="AOSPA/android_packages_services_Telecomm" />
-  <project path="packages/services/Telecomm" name="aospa-shadedark/android_packages_services_Telecomm" remote="github-ssh" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="shadedark" />
 
   <!-- Prebuilts (AOSPA)
   <project path="prebuilts/extract-tools" name="AOSPA/android_prebuilts_extract-tools" remote="aospa" /> -->
 
   <!-- System -->
   <remove-project name="AOSPA/android_system_core" />
-  <project path="system/core" name="aospa-shadedark/android_system_core" remote="github-ssh" />
+  <project path="system/core" name="android_system_core" remote="shadedark" />
  <!-- <remove-project name="platform/system/memory/lmkd" />
   <project path="system/memory/lmkd" name="AOSPA/android_system_memory_lmkd" remote="aospa" /> -->
   <remove-project name="platform/system/vold" />
-  <project path="system/vold" name="aospa-shadedark/android_system_vold" remote="github-ssh" />
+  <project path="system/vold" name="android_system_vold" remote="shadedark" />
 
   <!-- Tools (AOSPA) -->
   <remove-project name="AOSPA/android_tools_extract-utils" />
-  <project path="tools/extract-utils" name="aospa-shadedark/android_tools_extract-utils" remote="github-ssh" />
+  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="shadedark" />
 
   <!-- Vendor (AOSPA) -->
   <remove-project name="AOSPA/android_vendor_aospa" />
-  <project path="vendor/aospa" name="aospa-shadedark/android_vendor_aospa" remote="github-ssh" >
+  <project path="vendor/aospa" name="android_vendor_aospa" remote="shadedark" >
     <linkfile src="build.sh" dest="rom-build.sh" />
   </project>
 <!-- <project path="vendor/aospa/prebuilt" name="android_vendor_aospa_prebuilt" remote="blobs-gitlab" />
@@ -160,7 +160,7 @@
   <project path="vendor/qcom/opensource/thermal-hal" name="AOSPA/android_hardware_qcom_thermal" remote="aospa" /> -->
   
   <!--Smartspace-->
-  <project path="packages/services/SmartSpace" name="aospa-shadedark/android_packages_services_SmartSpace" remote="github-ssh" />
+  <project path="packages/services/SmartSpace" name="android_packages_services_SmartSpace" remote="shadedark" />
 
   <!--BCR-->
   <project path="vendor/bcr" name="Chaitanyakm/vendor_bcr" remote="github" revision="main" />
