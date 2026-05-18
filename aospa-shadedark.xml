@@ -40,7 +40,7 @@
   <remove-project name="platform/external/arm-optimized-routines" />
   <project path="external/arm-optimized-routines" name="AOSPA/android_external_arm-optimized-routines" remote="aospa" /> -->
   <remove-project name="platform/external/bouncycastle" />
-  <project path="external/bouncycastle" name="android_external_bouncycastle" remote="shadedark" />
+  <project path="external/bouncycastle" name="android_external_bouncycastle" remote="shadedark" revision="beryl-spoof" />
 <!-- <remove-project name="platform/external/e2fsprogs" />
   <project path="external/e2fsprogs" name="AOSPA/android_external_e2fsprogs" remote="aospa" />
   <remove-project name="platform/external/fastrpc" />
@@ -56,7 +56,7 @@
   <remove-project name="platform/frameworks/av" />
   <project path="frameworks/av" name="AOSPA/android_frameworks_av" remote="aospa" /> -->
   <remove-project name="AOSPA/android_frameworks_base" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="shadedark" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="shadedark" revision="beryl-spoof" />
 <!-- <remove-project name="AOSPA/android_frameworks_native" />
   <project path="frameworks/native" name="aospa-shadedark/android_frameworks_native" remote="github-ssh" /> -->
 
@@ -75,7 +75,7 @@
 
   <!-- Manifest -->
   <remove-project name="AOSPA/manifest" />
-  <project path="manifest" name="manifest" remote="shadedark" />
+  <project path="manifest" name="manifest" remote="shadedark" revision="beryl-spoof" />
 
   <!-- Packages (Custom)
   <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" revision="lineage-23.0" remote="github" />
@@ -92,7 +92,7 @@
   <remove-project name="AOSPA/android_packages_apps_Launcher3" />
   <project path="packages/apps/Launcher3" name="aospa-shadedark/android_packages_apps_Launcher3" remote="github-ssh" /> -->
   <remove-project name="AOSPA/android_packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="shadedark" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="shadedark" revision="beryl-spoof" />
 <!-- <remove-project name="platform/packages/apps/ThemePicker" />
   <project path="packages/apps/ThemePicker" name="AOSPA/android_packages_apps_ThemePicker" remote="aospa" />
   <remove-project name="platform/packages/modules/Bluetooth" />
@@ -109,7 +109,7 @@
 
   <!-- System -->
   <remove-project name="AOSPA/android_system_core" />
-  <project path="system/core" name="android_system_core" remote="shadedark" />
+  <project path="system/core" name="android_system_core" remote="shadedark" revision="beryl-spoof" />
  <!-- <remove-project name="platform/system/memory/lmkd" />
   <project path="system/memory/lmkd" name="AOSPA/android_system_memory_lmkd" remote="aospa" /> -->
   <remove-project name="platform/system/vold" />
