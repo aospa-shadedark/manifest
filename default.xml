@@ -48,8 +48,14 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
 
+  <!-- Local Remote -->
+  <remote  name="shadedark"
+           fetch="https://github.com/aospa-shadedark"
+           revision="calcite"/>
+
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
+  <include name="aospa-shadedark.xml"/>
   <include name="obsolete.xml"/>
 
 </manifest>
