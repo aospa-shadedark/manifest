@@ -90,9 +90,9 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="shadedark" />
   <remove-project name="AOSPA/android_packages_apps_ThemePicker" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="shadedark" revision="calcite" />
-<!-- <remove-project name="AOSPA/android_packages_modules_Bluetooth" />
+  <remove-project name="AOSPA/android_packages_modules_Bluetooth" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="shadedark" revision="calcite" />
-  <remove-project name="platform/packages/modules/Connectivity" />
+<!-- <remove-project name="platform/packages/modules/Connectivity" />
   <project path="packages/modules/Connectivity" name="AOSPA/android_packages_modules_Connectivity" remote="aospa" /> -->
   <remove-project name="AOSPA/android_packages_services_Telecomm" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="shadedark" revision="calcite" />
@@ -112,9 +112,9 @@
   <remove-project name="platform/system/update_engine" />
   <project path="system/update_engine" name="AOSPA/android_system_update_engine" remote="aospa" />
   <remove-project name="platform/system/memory/libion" />
-  <project path="system/memory/libion" name="AOSPA/android_system_memory_libion" remote="aospa" />
-  <remove-project name="platform/system/memory/lmkd" />
-  <project path="system/memory/lmkd" name="AOSPA/android_system_memory_lmkd" remote="aospa" /> -->
+  <project path="system/memory/libion" name="AOSPA/android_system_memory_libion" remote="aospa" /> -->
+  <remove-project name="AOSPA/android_system_memory_lmkd" />
+  <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="shadedark" revision="calcite" />
 
   <!-- Tools (AOSPA)
   <project path="tools/extract-utils" name="AOSPA/android_tools_extract-utils" remote="aospa" /> -->
@@ -133,11 +133,11 @@
   <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="shadedark" revision="calcite" />
 <!-- <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs" revision="disabled" /> -->
 
-  <!-- Vendor (QCOM QSSI)
-  <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
-  <project path="vendor/qcom/opensource/commonsys/bluetooth" name="AOSPA/android_vendor_qcom-opensource_bluetooth-commonsys" remote="aospa" />
-  <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="AOSPA/android_vendor_qcom_opensource_commonsys-intf_display" remote="aospa" /> -->
+  <!-- Vendor (QCOM QSSI) -->
+  <remove-project name="AOSPA/android_vendor_qcom-opensource_bluetooth-commonsys" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth" name="android_vendor_qcom-opensource_bluetooth-commonsys" remote="shadedark" revision="calcite" />
+  <remove-project name="AOSPA/android_vendor_qcom_opensource_commonsys-intf_display" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_commonsys-intf_display" remote="shadedark" revision="calcite" />
 
   <!-- Vendor (QCOM Vendor)
   <remove-project name="platform/vendor/nxp/opensource/keymaster" />
