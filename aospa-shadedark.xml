@@ -227,7 +227,7 @@
   <project path="vendor/pixel/clocks" name="proprietary_vendor_pixel_clocks" remote="shadedark" revision="seventeen" />
 
   <!-- GameSpace -->
-  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="shadedark" revision="calcite" />
+  <project path="packages/apps/Pentas" name="android_packages_apps_Pentas" remote="shadedark" revision="calcite" />
 
   <!-- BCR -->
   <project path="vendor/bcr" name="Chaitanyakm/vendor_bcr" remote="github" revision="main" />
